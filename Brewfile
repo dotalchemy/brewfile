@@ -151,7 +151,6 @@ brew m-cli
 brew m4
 brew mas
 brew mbedtls
-brew md5sha1sum
 brew midnight-commander
 brew mpdecimal
 brew nano
