@@ -1,30 +1,7 @@
-## Taps
-## https://docs.brew.sh/Taps
-##
-## Taps are 3rd Party repositories 
 
-# AWS Tools
-tap aws/tap
+# tap repositories and their packages
 
-# Hashicorp
-tap hashicorp/tap
-
-# Homebrew
-tap homebrew/bundle
-tap homebrew/cask
 tap homebrew/core
-tap homebrew/services
-
-# Git from Microsoft
-tap microsoft/git
-
-# brew-file for Brewfile management
-tap rcmdnk/file
-
-## Formulae
-## https://formulae.brew.sh/formula/
-##
-## Packages and libraries installed via brew
 brew act
 brew ansible
 brew ansible-lint
@@ -41,7 +18,6 @@ brew babel
 brew base64
 brew bat
 brew bdw-gc
-brew brew-file
 brew brotli
 brew c-ares
 brew ca-certificates
@@ -52,7 +28,6 @@ brew coreutils
 brew curl
 brew dav1d
 brew docker
-brew eks-anywhere
 brew eksctl
 brew exa
 brew ffmpeg
@@ -67,7 +42,7 @@ brew gdbm
 brew gettext
 brew giflib
 brew git
-brew git-credential-manager-core
+brew git-credential-manager
 brew glib
 brew gmp
 brew gnutls
@@ -94,6 +69,7 @@ brew juju
 brew k9s
 brew kind
 brew kompose
+brew krb5
 brew kubebuilder
 brew kubectx
 brew kubernetes-cli
@@ -151,7 +127,6 @@ brew m-cli
 brew m4
 brew mas
 brew mbedtls
-brew md5sha1sum
 brew midnight-commander
 brew mpdecimal
 brew nano
@@ -230,49 +205,47 @@ brew zimg
 brew zsh
 brew zstd
 
-## Casks
-## https://github.com/Homebrew/homebrew-cask
-##
-## Casks are OSX GUI Applications 
+tap homebrew/bundle
 
-# Utilities and Tools
+tap homebrew/services
+
+tap homebrew/cask
 cask 1password
 cask balenaetcher
 cask bartender
+cask discord
+cask docker
+cask dropbox
+cask firefox
+cask github
+cask google-chrome
+cask google-drive
+cask insomnia
 cask iterm2
+cask lens
+cask microsoft-auto-update
+cask microsoft-edge
+cask obsidian
+cask p4
+cask p4v
+cask parsec
+cask postman
 cask powershell
 cask royal-tsx
-cask stats
-cask wireshark
-
-# Cloud Storage
-cask dropbox
-cask google-drive
-
-# Browsers
-cask firefox
-cask google-chrome
-cask microsoft-edge
-
-# Chat and Comms
-cask discord
 cask signal
 cask slack
-#cask zoom
-
-# Development
-cask docker
-cask github
-cask insomnia
-cask lens
-cask obsidian
-cask p4v
-cask p4
-cask postman
-cask visual-studio-code
-
-# Important Work Stuff
-#cask amazon-music #no Apple Silicon support in package yet
-cask parsec
+cask stats
 cask steam
+cask visual-studio-code
+cask wireshark
 
+tap aws/tap
+brew eks-anywhere
+
+tap hashicorp/tap
+
+tap microsoft/git
+cask git-credential-manager-core
+
+tap rcmdnk/file
+brew brew-file
