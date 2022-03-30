@@ -274,7 +274,7 @@ cask postman
 cask visual-studio-code
 
 # Important Work Stuff
-cask amazon-music
+#cask amazon-music #no Apple Silicon support in package yet
 cask parsec
 cask steam
 
