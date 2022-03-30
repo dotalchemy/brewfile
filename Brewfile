@@ -68,7 +68,7 @@ brew gdbm
 brew gettext
 brew giflib
 brew git
-brew git-credential-manager
+brew git-credential-manager-core
 brew glib
 brew gmp
 brew gnutls
@@ -260,7 +260,7 @@ cask microsoft-edge
 cask discord
 cask signal
 cask slack
-cask zoomus
+cask zoom
 
 # Development
 cask docker
