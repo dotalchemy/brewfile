@@ -42,3 +42,5 @@ Fine
 https://homebrew-file.readthedocs.io/en/latest/index.html
 
 `brew-file` will let you manage your Brewfile with more advanced features, such as syncing to cloud storage or Git repositories. 
+
+You're likely going to want your own repo in order to take full advantage of this, given that you can have it update your Brewfile as you install packages (and you don't have commit access here...) but it gives you some fun options for keeping things synchronized across systems.
