@@ -47,7 +47,6 @@ brew c-ares
 brew ca-certificates
 brew cairo
 brew cjson
-brew ckan
 brew cmocka
 brew coreutils
 brew curl
@@ -154,7 +153,6 @@ brew mas
 brew mbedtls
 brew md5sha1sum
 brew midnight-commander
-brew mono
 brew mpdecimal
 brew nano
 brew ncurses
