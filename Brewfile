@@ -260,7 +260,7 @@ cask microsoft-edge
 cask discord
 cask signal
 cask slack
-cask zoom
+#cask zoom
 
 # Development
 cask docker
