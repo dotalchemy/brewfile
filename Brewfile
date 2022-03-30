@@ -67,7 +67,6 @@ brew gdbm
 brew gettext
 brew giflib
 brew git
-brew git-credential-manager-core
 brew glib
 brew gmp
 brew gnutls
@@ -261,6 +260,7 @@ cask slack
 
 # Development
 cask docker
+cask git-credential-manager-core
 cask github
 cask insomnia
 cask lens
