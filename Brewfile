@@ -189,6 +189,7 @@ brew readline
 brew rsync
 brew rtmpdump
 brew rubberband
+brew ruby
 brew s-lang
 brew screenfetch
 brew screenresolution
